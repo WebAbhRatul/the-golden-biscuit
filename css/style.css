@@ -1,0 +1,52 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header h1{
+    font-size: 50px;
+}
+nav{
+    text-align: end;
+}
+nav  li{
+    list-style: none;
+    display: inline-block; 
+    font-size: 20px;
+    padding: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 196, 0);
+}
+nav li a:hover{
+    color: #ff7b00;
+}
+.gold{
+    color: rgb(255, 208, 0);
+}
+.skip{
+    color: red;
+    text-decoration: underline;
+}
+.flex-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    padding-top: 50px;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-image: linear-gradient(to right,#e77b16,red);
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 12px;
+}
